@@ -1,7 +1,7 @@
 
 const FEATURES = [
-  import(/* webpackMode: "eager" */ '../../../features/feature-a'),
-  import(/* webpackMode: "eager" */ '../../../features/feature-b'),
+  import('../../../features/feature-a'),
+  import('../../../features/feature-b'),
 ];
 
 export function loadLevel1Features() {

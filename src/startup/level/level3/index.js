@@ -1,6 +1,6 @@
 const FEATURES = [
-  import(/* webpackMode: "eager" */ '../../../features/feature-e'),
-  import(/* webpackMode: "eager" */ '../../../features/feature-f'),
+  import('../../../features/feature-e'),
+  import('../../../features/feature-f'),
 ];
 
 export function loadLevel3Features() {
